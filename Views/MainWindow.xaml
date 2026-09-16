@@ -1,0 +1,44 @@
+﻿<Window x:Class="RPGCardMaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:RPGCardMaker.ViewModels"
+        xmlns:uc="clr-namespace:RPGCardMaker.UserControls"
+        Title="RPG Card Maker" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid Background="{DynamicResource AppBackground}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Ліва панель розділена на редактор і кнопку налаштувань -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="{DynamicResource PanelBackground}" BorderBrush="{DynamicResource BorderColor}" BorderThickness="0,0,1,0">
+                <uc:EditorView Loaded="EditorView_Loaded" />
+            </Border>
+
+            <!-- Кнопка налаштувань -->
+            <Button Grid.Row="1" Content="{Binding UIStrings[Settings]}" Command="{Binding OpenSettingsCommand}" 
+                    Height="40" FontSize="14" FontWeight="Bold"
+                    Background="{DynamicResource PanelBackground}" 
+                    Foreground="{DynamicResource TextColor}" 
+                    BorderBrush="{DynamicResource BorderColor}" 
+                    BorderThickness="0,1,1,0"/>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <uc:PreviewView HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+    </Grid>
+</Window>

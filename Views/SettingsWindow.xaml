@@ -1,0 +1,24 @@
+﻿<Window x:Class="RPGCardMaker.Views.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Width="300" SizeToContent="Height"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{DynamicResource PanelBackground}">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock x:Name="ThemeLabel" Text="Тема оформлення / Theme:" FontWeight="Bold" Foreground="{DynamicResource TextColor}" Margin="0,0,0,5"/>
+            <ComboBox x:Name="ThemeComboBox" SelectionChanged="ThemeComboBox_SelectionChanged" Margin="0,0,0,15" Padding="4">
+                <ComboBoxItem x:Name="LightItem" Content="Світла тема / Light" Tag="LightTheme" IsSelected="True"/>
+                <ComboBoxItem x:Name="DarkItem" Content="Темна тема / Dark" Tag="DarkTheme"/>
+            </ComboBox>
+
+            <TextBlock x:Name="LangLabel" Text="Мова інтерфейсу / Language:" FontWeight="Bold" Foreground="{DynamicResource TextColor}" Margin="0,0,0,5"/>
+            <ComboBox x:Name="LanguageComboBox" SelectionChanged="LanguageComboBox_SelectionChanged" Margin="0,0,0,15" Padding="4">
+                <ComboBoxItem Content="Українська" Tag="uk" IsSelected="True"/>
+                <ComboBoxItem Content="English" Tag="en"/>
+            </ComboBox>
+
+            <Button x:Name="CloseBtn" Content="Закрити / Close" Click="CloseButton_Click" Height="30" Margin="0,5,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

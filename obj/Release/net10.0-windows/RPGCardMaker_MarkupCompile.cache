@@ -1,0 +1,20 @@
+﻿RPGCardMaker
+
+
+winexe
+C#
+.cs
+C:\Users\jolyf\Downloads\Telegram Desktop\RPGCardMaker\RPGCardMaker\RPGCardMaker\obj\Release\net10.0-windows\
+RPGCardMaker
+none
+false
+TRACE;RELEASE;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\jolyf\Downloads\Telegram Desktop\RPGCardMaker\RPGCardMaker\RPGCardMaker\App.xaml
+71464046291
+
+15-1030215936
+206-1943539212
+Resources\Styles\Styles.xaml;Resources\Themes\DarkTheme.xaml;Resources\Themes\LightTheme.xaml;UserControls\EditorView.xaml;UserControls\PreviewView.xaml;Views\MainWindow.xaml;Views\SettingsWindow.xaml;
+
+True
+

@@ -1,0 +1,60 @@
+{
+  "uk": {
+    "UI": {
+      "History": "Мої проєкти (Історія):",
+      "NewCardBtn": " 📝 Нова ",
+      "CardName": "Назва картки:",
+      "CardType": "Тип картки:",
+      "Rarity": "Рідкість:",
+      "Health": "Здоров'я (HP):",
+      "Attack": "Атака:",
+      "Defense": "Захист:",
+      "ManaCost": "Вартість мани:",
+      "Description": "Опис:",
+      "Ability": "Здібність / Ефект:",
+      "BackgroundColor": "Колір картки (фракція):",
+      "BgNeutral": "Нейтральний",
+      "BgFire": "Вогонь",
+      "BgWater": "Вода",
+      "BgNature": "Природа",
+      "BgArcane": "Магія",
+      "SelectImage": "Вибрати зображення...",
+      "SaveProject": "💾 Зберегти проєкт картки",
+      "Settings": "⚙ Налаштування",
+      "SavePng": "💾 Зберегти зображення (PNG)",
+      "DefaultName": "Нова картка",
+      "DefaultDesc": "Введіть опис тут...",
+      "ImagePlaceholder": "[Зображення]"
+    },
+    "Rarities": [ "Звичайна", "Рідкісна", "Епічна", "Легендарна" ]
+  },
+  "en": {
+    "UI": {
+      "History": "My Projects (History):",
+      "NewCardBtn": " 📝 New ",
+      "CardName": "Card Name:",
+      "CardType": "Card Type:",
+      "Rarity": "Rarity:",
+      "Health": "Health (HP):",
+      "Attack": "Attack:",
+      "Defense": "Defense:",
+      "ManaCost": "Mana Cost:",
+      "Description": "Description:",
+      "Ability": "Ability / Effect:",
+      "BackgroundColor": "Card Color (faction):",
+      "BgNeutral": "Neutral",
+      "BgFire": "Fire",
+      "BgWater": "Water",
+      "BgNature": "Nature",
+      "BgArcane": "Arcane",
+      "SelectImage": "Select Image...",
+      "SaveProject": "💾 Save Card Project",
+      "Settings": "⚙ Settings",
+      "SavePng": "💾 Save Image (PNG)",
+      "DefaultName": "New Card",
+      "DefaultDesc": "Enter description here...",
+      "ImagePlaceholder": "[Image]"
+    },
+    "Rarities": [ "Common", "Rare", "Epic", "Legendary" ]
+  }
+}

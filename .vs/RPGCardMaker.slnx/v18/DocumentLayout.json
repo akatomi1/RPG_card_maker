@@ -1,0 +1,416 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\usercontrols\\previewview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:usercontrols\\previewview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\localization.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:localization.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\views\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:views\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\usercontrols\\editorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:usercontrols\\editorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\resources\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:resources\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\resources\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:resources\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\converters\\hextobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:converters\\hextobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\converters\\imagepathtosourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:converters\\imagepathtosourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\converters\\raritytobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:converters\\raritytobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\models\\localizationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:models\\localizationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\rpgcardmaker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:rpgcardmaker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\usercontrols\\editorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:usercontrols\\editorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|c:\\users\\chevr\\downloads\\rpgcardmaker\\rpgcardmaker\\usercontrols\\previewview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626C24C5-1D36-F200-5BFF-6EC2A6066AEF}|RPGCardMaker.csproj|solutionrelative:usercontrols\\previewview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T14:37:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T15:02:11.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "localization.json",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\localization.json",
+              "RelativeDocumentMoniker": "localization.json",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\localization.json",
+              "RelativeToolTip": "localization.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-13T17:30:29.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:13:31.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAmwJwBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:26:35.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PreviewView.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\PreviewView.xaml",
+              "RelativeDocumentMoniker": "UserControls\\PreviewView.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\PreviewView.xaml",
+              "RelativeToolTip": "UserControls\\PreviewView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T14:30:16.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "Views\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T15:17:45.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\SettingsWindow.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\SettingsWindow.xaml",
+              "RelativeToolTip": "Views\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T15:02:59.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T14:13:32.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:22:59.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditorView.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\EditorView.xaml",
+              "RelativeDocumentMoniker": "UserControls\\EditorView.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\EditorView.xaml",
+              "RelativeToolTip": "UserControls\\EditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T14:28:36.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LightTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Themes\\LightTheme.xaml",
+              "RelativeDocumentMoniker": "Resources\\Themes\\LightTheme.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Themes\\LightTheme.xaml",
+              "RelativeToolTip": "Resources\\Themes\\LightTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T15:01:02.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Themes\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "Resources\\Themes\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Themes\\DarkTheme.xaml",
+              "RelativeToolTip": "Resources\\Themes\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-12T15:01:25.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T13:23:06.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:25:55.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HexToBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\HexToBrushConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\HexToBrushConverter.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\HexToBrushConverter.cs",
+              "RelativeToolTip": "Converters\\HexToBrushConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T18:31:55.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ImagePathToSourceConverter.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\ImagePathToSourceConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ImagePathToSourceConverter.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\ImagePathToSourceConverter.cs",
+              "RelativeToolTip": "Converters\\ImagePathToSourceConverter.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T19:03:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RarityToBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\RarityToBrushConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\RarityToBrushConverter.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Converters\\RarityToBrushConverter.cs",
+              "RelativeToolTip": "Converters\\RarityToBrushConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T18:31:23.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LocalizationData.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Models\\LocalizationData.cs",
+              "RelativeDocumentMoniker": "Models\\LocalizationData.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Models\\LocalizationData.cs",
+              "RelativeToolTip": "Models\\LocalizationData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T17:31:16.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "Models\\Card.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\Models\\Card.cs",
+              "RelativeToolTip": "Models\\Card.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:23:45.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RPGCardMaker.csproj",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\RPGCardMaker.csproj",
+              "RelativeDocumentMoniker": "RPGCardMaker.csproj",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\RPGCardMaker.csproj",
+              "RelativeToolTip": "RPGCardMaker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-12T14:22:01.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PreviewView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\PreviewView.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\PreviewView.xaml.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\PreviewView.xaml.cs",
+              "RelativeToolTip": "UserControls\\PreviewView.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T15:24:21.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditorView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\EditorView.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\EditorView.xaml.cs",
+              "ToolTip": "C:\\Users\\chevr\\Downloads\\RPGCardMaker\\RPGCardMaker\\UserControls\\EditorView.xaml.cs",
+              "RelativeToolTip": "UserControls\\EditorView.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T16:28:13.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ResourcePart.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Asus\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Asus\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\Asus\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\Asus\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAABUAAAAAAAAAAAAawCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:35:40.485Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

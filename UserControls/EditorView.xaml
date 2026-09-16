@@ -1,0 +1,193 @@
+﻿<UserControl x:Class="RPGCardMaker.UserControls.EditorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="800">
+    <Grid Background="Transparent">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="15">
+
+                <!-- Історія -->
+                <TextBlock Text="{Binding UIStrings[History]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ComboBox Grid.Column="0" ItemsSource="{Binding SavedCards}" 
+                          SelectedItem="{Binding SelectedSavedCard, UpdateSourceTrigger=PropertyChanged}" 
+                          DisplayMemberPath="Name"
+                          Margin="0,0,5,0" Padding="4"/>
+
+                    <Button Grid.Column="1" Content="{Binding UIStrings[NewCardBtn]}" Command="{Binding NewCardCommand}" 
+                        MinWidth="60" FontWeight="Bold" Margin="0,0,5,0"/>
+
+                    <Button Grid.Column="2" Content=" 🗑 " Command="{Binding DeleteSavedCardCommand}" 
+                        Style="{StaticResource IconButtonStyle}" Foreground="Red" FontWeight="Bold"
+                        ToolTip="{Binding UIStrings[DeleteCardTooltip]}"/>
+                </Grid>
+
+                <Separator Margin="0,0,0,15" Background="{DynamicResource BorderColor}"/>
+
+                <!-- Назва картки з автоматичним очищенням при кліку -->
+                <TextBlock Text="{Binding UIStrings[CardName]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <TextBox Text="{Binding CurrentCard.Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" 
+                     GotFocus="NameTextBox_GotFocus" LostFocus="NameTextBox_LostFocus"
+                     Margin="0,0,0,15" Padding="4"/>
+
+                <!-- Тип картки -->
+                <TextBlock Text="{Binding UIStrings[CardType]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <ComboBox ItemsSource="{Binding CardTypes}" 
+                      SelectedItem="{Binding CurrentCard.CardType, UpdateSourceTrigger=PropertyChanged}" 
+                      Margin="0,0,0,5" Padding="4"/>
+
+                <!-- Поле додавання нового типу з підказкою-плейсхолдером -->
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0" Margin="0,0,5,0">
+                        <TextBox x:Name="NewTypeTextBox" Text="{Binding NewTypeInput, UpdateSourceTrigger=PropertyChanged}" Padding="4"/>
+                        <TextBlock Text="{Binding UIStrings[TypePlaceholder]}" 
+                               Foreground="Gray" FontStyle="Italic" IsHitTestVisible="False"
+                               Margin="8,0,0,0" VerticalAlignment="Center">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Text, ElementName=NewTypeTextBox}" Value="">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+
+                    <Button Grid.Column="1" Content=" + " Command="{Binding AddTypeCommand}" Style="{StaticResource IconButtonStyle}" FontWeight="Bold" Margin="0,0,3,0"/>
+                    <Button Grid.Column="2" Content=" ✎ " Command="{Binding EditTypeCommand}" Style="{StaticResource IconButtonStyle}" Margin="0,0,3,0"/>
+                    <Button Grid.Column="3" Content=" ✖ " Command="{Binding DeleteTypeCommand}" Style="{StaticResource IconButtonStyle}" Foreground="Red" FontWeight="Bold"/>
+                </Grid>
+
+                <!-- Рідкість -->
+                <TextBlock Text="{Binding UIStrings[Rarity]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <ComboBox ItemsSource="{Binding Rarities}"
+                      SelectedItem="{Binding CurrentCard.Rarity, UpdateSourceTrigger=PropertyChanged}"
+                      Margin="0,0,0,15" Padding="4"/>
+
+                <!-- RPG характеристики (кожна вмикається окремо чекбоксом) -->
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,5,10">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <CheckBox IsChecked="{Binding CurrentCard.IncludeHealth}" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[Health]}" FontWeight="Bold" Foreground="{DynamicResource TextColor}"/>
+                        </StackPanel>
+                        <TextBox Text="{Binding CurrentCard.Health, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" 
+                             IsEnabled="{Binding CurrentCard.IncludeHealth}" Padding="4"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="5,0,0,10">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <CheckBox IsChecked="{Binding CurrentCard.IncludeAttack}" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[Attack]}" FontWeight="Bold" Foreground="{DynamicResource TextColor}"/>
+                        </StackPanel>
+                        <TextBox Text="{Binding CurrentCard.Attack, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" 
+                             IsEnabled="{Binding CurrentCard.IncludeAttack}" Padding="4"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,5,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <CheckBox IsChecked="{Binding CurrentCard.IncludeDefense}" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[Defense]}" FontWeight="Bold" Foreground="{DynamicResource TextColor}"/>
+                        </StackPanel>
+                        <TextBox Text="{Binding CurrentCard.Defense, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" 
+                             IsEnabled="{Binding CurrentCard.IncludeDefense}" Padding="4"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <CheckBox IsChecked="{Binding CurrentCard.IncludeManaCost}" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[ManaCost]}" FontWeight="Bold" Foreground="{DynamicResource TextColor}"/>
+                        </StackPanel>
+                        <TextBox Text="{Binding CurrentCard.ManaCost, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" 
+                             IsEnabled="{Binding CurrentCard.IncludeManaCost}" Padding="4"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Опис з автоматичним очищенням при кліку -->
+                <TextBlock Text="{Binding UIStrings[Description]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <TextBox Text="{Binding CurrentCard.Description, UpdateSourceTrigger=PropertyChanged}" 
+                     GotFocus="DescTextBox_GotFocus" LostFocus="DescTextBox_LostFocus"
+                     Height="80" TextWrapping="Wrap" AcceptsReturn="True" Padding="4" Margin="0,0,0,15"/>
+
+                <!-- Здібність / ефект -->
+                <TextBlock Text="{Binding UIStrings[Ability]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <TextBox Text="{Binding CurrentCard.Ability, UpdateSourceTrigger=PropertyChanged}" 
+                     Height="60" TextWrapping="Wrap" AcceptsReturn="True" Padding="4" Margin="0,0,0,15"/>
+
+                <!-- Колір фону картки (фракція) -->
+                <TextBlock Text="{Binding UIStrings[BackgroundColor]}" FontWeight="Bold" Margin="0,0,0,5" Foreground="{DynamicResource TextColor}"/>
+                <ComboBox SelectedValue="{Binding CurrentCard.BackgroundColor, UpdateSourceTrigger=PropertyChanged}"
+                      SelectedValuePath="Tag" Margin="0,0,0,15" Padding="4">
+                    <ComboBoxItem Tag="#FAFAFA">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Width="14" Height="14" Background="#FAFAFA" BorderBrush="Gray" BorderThickness="1" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[BgNeutral]}"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Tag="#F5B7B1">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Width="14" Height="14" Background="#F5B7B1" BorderBrush="Gray" BorderThickness="1" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[BgFire]}"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Tag="#AED6F1">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Width="14" Height="14" Background="#AED6F1" BorderBrush="Gray" BorderThickness="1" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[BgWater]}"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Tag="#A9DFBF">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Width="14" Height="14" Background="#A9DFBF" BorderBrush="Gray" BorderThickness="1" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[BgNature]}"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Tag="#D7BDE2">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Width="14" Height="14" Background="#D7BDE2" BorderBrush="Gray" BorderThickness="1" Margin="0,0,6,0"/>
+                            <TextBlock Text="{Binding UIStrings[BgArcane]}"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                </ComboBox>
+
+                <!-- Вибір картинки -->
+                <Button Content="{Binding UIStrings[SelectImage]}" 
+                    Command="{Binding SelectImageCommand}" 
+                    Margin="0,0,0,15" Height="30"/>
+
+                <!-- Зберегти проєкт -->
+                <Button Content="{Binding UIStrings[SaveProject]}" 
+                    Command="{Binding SaveCommand}" 
+                    Height="35" FontWeight="Bold"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
